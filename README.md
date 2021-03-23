@@ -5,6 +5,6 @@ This project makes up parto of my Resposive Web Design course of Free Code Camp.
 
 You can see this project by clicking on the following URL:
 
-https://github.com/pablonalonso/personal-portfolio-webpage.git
+https://pablonalonso.github.io/personal-portfolio-webpage/
 
 Enjoy!
