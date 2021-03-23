@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/function.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div id="navbar" class="topnav">
+  <a href="#home" class="active"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#welcome-section">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#projects">Projects</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<section id="welcome-section">
+    <div>
+        <h1>Full Stack Developer</h1>
+        <p>Pablo Nicolás Alonso</p>
+    </div>
+    
+</section>
+
+<section id="projects">
+    <h1 class="project-tile">Projects</h1>
+    <div class="grid-container">
+        <div class="row">
+            <div class="column">
+                <iframe width="60%" height="315" src="https://pablonalonso.github.io/tribute-page/"  title="Tribute Page" frameborder="no" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" allowtransparency="true"></iframe>
+                <p>Tribute Page</p>
+            </div>
+            <div class="column">
+                <iframe  width="60%" height="315" src="https://pablonalonso.github.io/survey-form/"  title="Tribute Page" frameborder="no" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" allowtransparency="true"></iframe>
+                <a style="color: aliceblue;" href="https://pablonalonso.github.io/survey-form/"Survey Form></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <iframe width="60%" height="315" src="https://pablonalonso.github.io/product-landing-page/"  title="Tribute Page" frameborder="no" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" allowtransparency="true"></iframe>
+                <p>Product Landing Page</p>
+            </div>
+            <div class="column">
+                <iframe width="60%" height="315" src="https://pablonalonso.github.io/technical-documentation-page/"  title="Tribute Page" frameborder="no" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" allowtransparency="true"></iframe>
+                <p>Technical Documentation Page</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="https://kit.fontawesome.com/ad079d3186.js" crossorigin="anonymous"></script>
+GitHub Account: <a id="profile-link" href="https://github.com/pablonalonso" target="_blank"><i class="fab fa-github"></i></a>
+</body>
+</html>
